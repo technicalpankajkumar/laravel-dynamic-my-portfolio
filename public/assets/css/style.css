@@ -1,0 +1,87 @@
+:root{
+	--theme:#1e293b;
+	--navtheme:#111827;
+	--color: white;
+	--font-family: monospace;
+	--colorbody:  #0c7187;
+}
+body{
+	background: var(--colorbody);
+	margin: 0px;
+	padding: 0px;
+	/* overflow-y: hidden; */
+	overflow-x: hidden;
+}
+.row{
+	z-index: 1 !important;
+}
+.card{
+	background: var(--colorbody);
+	font-family: monospace;
+	text-align: justify;
+	color: white;
+}
+.theme{
+	background: var(--theme) !important;
+	color: var(--color) !important;
+	/*border: 1px solid white;*/
+}
+.navtheme,.blacktheme{
+	background: var(--navtheme) !important;
+}
+.white,#white{
+	color: var(--color) !important;
+}
+.hover:hover{
+	background:var(--colorbody);
+}
+
+.textPadding{
+	padding-right:100px;
+	box-sizing: border-box;
+}
+.orange{
+	color: orange;
+	font-weight: bold;
+}
+.btnColor{
+	background: #a200ff;
+	color: white;
+	border: none;
+}
+.btnYoutube{
+	background: darkred;
+	color: white;
+	border: none;
+}
+.aboutImg{
+	border-radius:150px 0px 5px 5px;
+	box-shadow:  -6px 10px 1px #0f172a,-10px 15px 1px white;
+}
+.imgcss{
+	border-radius:150px 0px 5px 5px;
+	box-shadow:  -6px 10px 1px #0f172a,-15px 20px 1px white;
+	margin:auto;
+	transition: all ease 1s;
+}
+.imgcss:hover{
+	transition: all ease 1s;
+	transform: scale(1.1);
+}
+
+.round{
+	border-radius:0px 300px 0px 0px !important;
+} 
+.textAlignment{
+	text-align: justify;
+}
+
+.visitCard{
+	background: gray; 
+	height:100px; 
+	width: 250px; 
+	transform: translateY(-20px);
+}
+.curserpointer{
+	cursor: pointer;
+}
